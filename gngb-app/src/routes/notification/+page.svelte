@@ -74,15 +74,13 @@
 {:else if page === 3}
 	{@html wooyoungSend('컴돌이답게 Web 으로 감동을 주겠다!')}
 	<div class="chat chat-end">
-		<div class="chat-bubble chat-bubble-info">우리가 지난 8년간 함께했던 이야기와,</div>
+		<div class="chat-bubble chat-bubble-info">우리가 지난 8년간 함께했던 이야기</div>
 	</div>
 	<div class="chat chat-end">
-		<div class="chat-bubble chat-bubble-warning">우리가 지금 겪고 있는 상황에 대한 이야기와,</div>
+		<div class="chat-bubble chat-bubble-warning">우리가 지금 겪고 있는 상황에 대한 이야기</div>
 	</div>
 	<div class="chat chat-end">
-		<div class="chat-bubble chat-bubble-error">
-			우리가 앞으로 함께할 이야기를 담아보았습니다.
-		</div>
+		<div class="chat-bubble chat-bubble-error">우리의 앞으로의 이야기를 담아보았습니다.</div>
 	</div>
 {/if}
 

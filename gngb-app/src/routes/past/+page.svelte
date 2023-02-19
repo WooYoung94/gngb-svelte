@@ -14,7 +14,7 @@
 <progress class="progress progress-accent" />
 
 <select class="select select-primary w-full" bind:value={page}>
-	<option value="default">어느 시점으로 되돌아 가보고싶어?</option>
+	<option value="default">어느 시점으로 되돌아 가보고 싶어?</option>
 	<option value="2016">2016</option>
 	<option value="2017">2017</option>
 	<option value="2018">2018</option>
