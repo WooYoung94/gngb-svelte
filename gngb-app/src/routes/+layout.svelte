@@ -28,10 +28,10 @@
 					tabindex="0"
 					class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-secondary rounded-box w-52"
 				>
-					<li><a href="/past">과거의 우리</a></li>
-					<li><a href="/contact">현재의 우리</a></li>
-					<li><a href="/story">미래의 우리</a></li>
-					<li><a href="/about">재롱 잔치</a></li>
+					<li><a class="text-xl" href="/past">과거의 우리</a></li>
+					<li><a class="text-xl" href="/contact">현재의 우리</a></li>
+					<li><a class="text-xl" href="/story">미래의 우리</a></li>
+					<li><a class="text-xl" href="/about">재롱 잔치</a></li>
 				</ul>
 			</div>
 		</div>
