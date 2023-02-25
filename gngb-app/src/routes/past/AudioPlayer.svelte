@@ -1,0 +1,24 @@
+<script context="module">
+	import '../../app.css';
+
+	const players = new Set();
+</script>
+
+<script>
+	import { onMount } from 'svelte';
+
+	export let src;
+
+	let player;
+
+	onMount(() => {
+		// Like players.push(player)
+		players.add(player);
+	});
+</script>
+
+<div class="mx-2">
+	<audio bind:this={player} {src} controls>
+		<track kind="captions" />
+	</audio>
+</div>

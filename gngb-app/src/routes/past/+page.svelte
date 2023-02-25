@@ -1,7 +1,32 @@
 <script>
 	import '../../app.css';
+	import AudioPlayer from './AudioPlayer.svelte';
 
-	let page = 'default';
+	let page = '2016';
+	let audioTracks = [
+		'https://sveltejs.github.io/assets/music/strauss.mp3',
+		'https://sveltejs.github.io/assets/music/strauss.mp3'
+	];
+
+	/**
+	 * @param {number} value
+	 */
+	function loveProgress(value) {
+		return `
+		<div class="flex flex-row mt-1.5">
+			<div class="text-right basis-1/12">👦🏻</div>
+			<div class="basis-10/12">
+				<div class="flex flex-row">
+					<div class="text-right basis-1/12">💓</div>
+					<div class="basis-11/12">
+						<progress class="progress progress-accent" value="10" max="100" />
+					</div>
+				</div>
+			</div>
+			<div class="text-left basis-1/12">👩🏻</div>
+		</div>
+        `;
+	}
 </script>
 
 <div class="stats shadow">
@@ -27,7 +52,40 @@
 {#if page === 'default'}
 	<progress class="progress progress-accent" value="0" max="100" />
 {:else if page === '2016'}
-	<progress class="progress progress-accent" value="10" max="100" />
+	{@html loveProgress(10)}
+
+	<div class="mx-8 mt-2 ">
+		<AudioPlayer src={audioTracks[0]} />
+	</div>
+	<div class="grid grid-rows-3 grid-flow-col gap-1 mt-4">
+		<div class="w-40 rounded-full">
+			<img src="sanga_main.jpeg" alt="sanga_main" />
+		</div>
+		<div class="w-40 rounded-full">
+			<img src="sanga_main.jpeg" alt="sanga_main" />
+		</div>
+		<div class="w-10 rounded-full">
+			<img src="sanga_main.jpeg" alt="sanga_main" />
+		</div>
+		<div class="w-10 rounded-full">
+			<img src="sanga_main.jpeg" alt="sanga_main" />
+		</div>
+		<div class="w-10 rounded-full">
+			<img src="sanga_main.jpeg" alt="sanga_main" />
+		</div>
+		<div class="w-10 rounded-full">
+			<img src="sanga_main.jpeg" alt="sanga_main" />
+		</div>
+		<div class="w-10 rounded-full">
+			<img src="sanga_main.jpeg" alt="sanga_main" />
+		</div>
+		<div class="w-10 rounded-full">
+			<img src="sanga_main.jpeg" alt="sanga_main" />
+		</div>
+		<div class="w-10 rounded-full">
+			<img src="sanga_main.jpeg" alt="sanga_main" />
+		</div>
+	</div>
 {:else if page === '2017'}
 	<progress class="progress progress-accent" value="20" max="100" />
 {:else if page === '2018'}
