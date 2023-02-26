@@ -63,21 +63,48 @@
 		<p>프로포즈를 준비하면서 2016년도에 가장 많이 들었던 노래가 무엇일까 많이 생각해봤습니다.</p>
 	</article>
 
-	<article class="prose mx-2 mt-2">
+	<article class="prose mx-2 mt-5">
 		<h3>함께한 순간</h3>
-		<div class="carousel carousel-center w-full p-4 space-x-4 bg-neutral rounded-box">
+		<div class="carousel carousel-center w-full p-2 space-x-4 bg-neutral rounded-box">
+			<div class="carousel-item">
+				<div class="card w-52 bg-accent hover:w-64">
+					<img class="m-0 rounded-t-2xl" src="sanga_main.jpeg" alt="sanga_main" />
+					<div class="m-0 card-body">
+						<h2 class="m-0 card-title">Shoes!</h2>
+						<p>If a dog chews shoes whose shoes does he choose?</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="card w-52 bg-accent hover:w-64">
+					<img class="m-0 rounded-t-2xl" src="sanga_main.jpeg" alt="sanga_main" />
+					<div class="m-0 card-body">
+						<h2 class="m-0 card-title">Shoes!</h2>
+						<p>If a dog chews shoes whose shoes does he choose?</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="card w-52 bg-accent hover:w-64">
+					<img class="m-0 rounded-t-2xl" src="sanga_main.jpeg" alt="sanga_main" />
+					<div class="m-0 card-body">
+						<h2 class="m-0 card-title">Shoes!</h2>
+						<p>If a dog chews shoes whose shoes does he choose?</p>
+					</div>
+				</div>
+			</div>
 			<div class="carousel-item">
 				<div class="w-48 rounded-full hover:w-80">
 					<img src="sanga_main.jpeg" alt="sanga_main" />
 				</div>
 			</div>
 			<div class="carousel-item">
-				<div class="w-48 rounded-full">
+				<div class="w-48 rounded-full hover:w-80">
 					<img src="sanga_main.jpeg" alt="sanga_main" />
 				</div>
 			</div>
 			<div class="carousel-item">
-				<div class="w-48 rounded-full">
+				<div class="w-48 rounded-full hover:w-80">
 					<img src="sanga_main.jpeg" alt="sanga_main" />
 				</div>
 			</div>
