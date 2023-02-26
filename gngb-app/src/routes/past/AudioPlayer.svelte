@@ -1,12 +1,11 @@
 <script context="module">
 	import '../../app.css';
+	import { onMount } from 'svelte';
 
 	const players = new Set();
 </script>
 
 <script>
-	import { onMount } from 'svelte';
-
 	export let src;
 
 	let player;
@@ -17,8 +16,8 @@
 	});
 </script>
 
-<div class="mx-2">
-	<audio bind:this={player} {src} controls>
+<div class="flex mx-2">
+	<audio style="margin: 0 auto;" bind:this={player} {src} controls>
 		<track kind="captions" />
 	</audio>
 </div>
