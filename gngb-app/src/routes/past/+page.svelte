@@ -67,7 +67,7 @@
 		<h3>함께한 순간</h3>
 		<div class="carousel carousel-center w-full p-4 space-x-4 bg-neutral rounded-box">
 			<div class="carousel-item">
-				<div class="w-48 rounded-full focus:w-80">
+				<div class="w-48 rounded-full hover:w-80">
 					<img src="sanga_main.jpeg" alt="sanga_main" />
 				</div>
 			</div>
